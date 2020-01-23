@@ -98,7 +98,7 @@ func main() {
 	log.Println(serialport)
 
 	config := &serial.Config{
-		Name: "/dev/ttyACM1",
+		Name: serialport,
 		Baud: 9600,
 		// ReadTimeout: 1,
 		// Size: 8,
