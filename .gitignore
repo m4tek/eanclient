@@ -17,3 +17,6 @@
 
 # ignore compiled file
 main
+
+# Ignore credentials file for future
+config.env
