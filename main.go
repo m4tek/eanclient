@@ -92,11 +92,6 @@ func main() {
 
 	serialport := os.Getenv("SERIAL_PORT")
 
-	log.Println(apikey)
-	log.Println(hahost)
-	log.Println(eanserver)
-	log.Println(serialport)
-
 	config := &serial.Config{
 		Name: serialport,
 		Baud: 9600,
